@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Реєстраційна форма</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Реєстраційна форма</h1>
+
+    <form action="https://webhook.site/a4edc84e-f81e-41f9-9fa3-5b5faf4aa4a7" method="post">
+        <div class="form-group">
+            <label for="first-name">Ім'я:</label>
+            <input type="text" id="first-name" name="first-name" required>
+        </div>
+
+        <div class="form-group">
+            <label for="last-name">Прізвище:</label>
+            <input type="text" id="last-name" name="last-name" required>
+        </div>
+
+        <div class="form-group">
+            <label for="email">Електронна пошта:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+
+        <div class="form-group">
+            <label for="password">Пароль:</label>
+            <input type="password" id="password" name="password" required>
+        </div>
+
+        <div class="form-group">
+            <label for="confirm-password">Підтвердження паролю:</label>
+            <input type="password" id="confirm-password" name="confirm-password" required>
+        </div>
+
+        <div class="form-group">
+            <label for="birth-date">Дата народження:</label>
+            <input type="date" id="birth-date" name="birth-date">
+        </div>
+
+        <div class="form-group">
+            <label for="gender">Стать:</label>
+            <select id="gender" name="gender">
+                <option value="">Оберіть стать</option>
+                <option value="male">Чоловік</option>
+                <option value="female">Жінка</option>
+                <option value="other">Інше</option>
+            </select>
+        </div>
+
+        <input type="submit" value="Зареєструватися">
+    </form>
+</div>
+
+</body>
+</html>

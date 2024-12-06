@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Clone</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <header class="header">
+    <div class="header-left">
+      <button class="menu-button"><i class="fas fa-bars"></i></button>
+      <a href="#" class="logo"><img src="images/youtube_logo.png" alt="YouTube Logo"></a>
+    </div>
+    <div class="search-bar">
+        <input type="text" placeholder="Пошук">
+        <button class="search-button"><i class="fas fa-search"></i></button>
+        <button class="microphone-button"><i class="fas fa-microphone"></i></button>
+    </div>
+    <div class="header-right">
+      <button class="right-button"><i class="fas fa-video"></i></button>
+      <button class="right-button"><i class="fas fa-bell"></i></button>
+      <button><img src="images/profile_pic.png" alt="Profile Picture"></button>
+    </div>
+  </header>
+
+    <div class="container">
+        <aside class="sidebar">
+            <nav class="menu">
+                <ul>
+                  <li><a href="#" class="active"><i class="fas fa-home"></i> Головна</a></li>
+                  <li><a href="#"><i class="fas fa-fire"></i> Тренди</a></li>
+                  <li><a href="#"><i class="fas fa-compass"></i> Огляд</a></li>
+                  <li><a href="#"><i class="fas fa-bookmark"></i> Бібліотека</a></li>
+                  <li><a href="#"><i class="fas fa-history"></i> Історія</a></li>
+                </ul>
+              </nav>
+            <div class="subscriptions">
+                <h3>Підписки</h3>
+                <ul>
+                    <li><a href="#">Канал 1</a></li>
+                    <li><a href="#">Канал 2</a></li>
+                    <li><a href="#">Канал 3</a></li>
+                   
+                </ul>
+                <button class="show-more">Показати ще 24</button>
+            </div>
+        </aside>
+
+        <main class="main-content">
+
+            <div class="filter-chips">
+                <button class="chip active">Усі</button>
+                <button class="chip">Ігри</button>
+                <button class="chip">Музика</button>
+                <button class="chip">Пряма трансляція</button>
+                <button class="chip">Новини</button>
+                <button class="chip">Пригодницький бойовик</button>
+                <button class="chip">Образотворчі мистецтва</button>
+                <button class="chip">Мультфільми</button>
+                <button class="chip">Нещодавні завантаження</button>
+                <button class="chip">Ви дивилися</button>
+            </div>
+
+            <div class="video-grid">
+                <div class="video">
+                    <a href="відео1.html"> <img src="images/hq720_001.webp" alt="Обкладинка відео 1"></a>
+                    <div class="video-info">
+                        <a href="канал1.html"><img src="images/channels4_profile_001.jpg" alt="Аватар каналу 1" class="channel-icon"></a>
+                        <div class="video-details">
+                            <h3><a href="відео1.html">Заголовок відео 1</a></h3>
+                            <p><a href="канал1.html">Назва каналу 1</a></p>
+                            <p class="video-stats">1 млн переглядів • 3 дні тому</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video">
+                    <a href="відео2.html"><img src="images/hq720_002.webp" alt="Обкладинка відео 2"></a>
+                    <div class="video-info">
+                        <a href="канал2.html"><img src="images/channels4_profile_002.jpg" alt="Аватар каналу 2" class="channel-icon"></a>
+                        <div class="video-details">
+                            <h3><a href="відео2.html">Заголовок відео 2</a></h3>
+                            <p><a href="канал2.html">Назва каналу 2</a></p>
+                            <p class="video-stats">500 тис. переглядів • 1 тиждень тому</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video">
+                    <a href="відео3.html"><img src="images/hq720_003.webp" alt="Обкладинка відео 3"></a>
+                    <div class="video-info">
+                        <a href="канал3.html"><img src="images/channels4_profile_003.jpg" alt="Аватар каналу 3" class="channel-icon"></a>
+                        <div class="video-details">
+                            <h3><a href="відео3.html">Заголовок відео 3</a></h3>
+                            <p><a href="канал3.html">Назва каналу 3</a></p>
+                            <p class="video-stats">2 млн переглядів • 2 місяці тому</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video">
+                    <a href="відео4.html"><img src="images/hq720_004.webp" alt="Обкладинка відео 4"></a>
+                    <div class="video-info">
+                        <a href="канал4.html"><img src="images/channels4_profile_004.jpg" alt="Аватар каналу 4" class="channel-icon"></a>
+                        <div class="video-details">
+                            <h3><a href="відео4.html">Заголовок відео 4</a></h3>
+                            <p><a href="канал4.html">Назва каналу 4</a></p>
+                            <p class="video-stats">750 тис. переглядів • 1 місяць тому</p>
+                        </div>
+                    </div>
+                </div>
+              </div>
+        </main>
+    </div>
+</body>
+</html>

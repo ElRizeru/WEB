@@ -1,0 +1,115 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    color: #333;
+    overflow: hidden;
+}
+
+.header {
+    background-color: #fff;
+    padding: 0px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    position: relative;
+    z-index: 2;
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header__title-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.header__title {
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #f87171;
+    transition: color 0.3s ease;
+}
+
+.header__title-link:hover .header__title {
+    color: #ef4444;
+}
+
+.header__socials {
+    display: flex;
+    gap: 20px;
+}
+
+.header__social-link {
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+.header__social-link:hover {
+    transform: translateY(-3px);
+}
+
+.header__social-icon {
+    width: 30px;
+    height: 30px;
+    transition: filter 0.3s ease;
+}
+
+.header__social-link:hover .header__social-icon {
+    filter: drop-shadow(0 2px 2px rgba(0, 0, 0, 0.2));
+}
+
+.hero {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    text-align: center;
+}
+
+.hero__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    z-index: -1;
+}
+
+.hero__content {
+    position: relative;
+    z-index: 1;
+    color: #fff;
+}
+
+.hero__title {
+    font-family: 'Playfair Display', serif;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.hero__button {
+    background-color: #f87171;
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.hero__button:hover {
+    background-color: #ef4444;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3);
+}

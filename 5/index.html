@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тижневий Планувальник</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="planner">
+        <h1>ТИЖНЕВИЙ ПЛАН</h1>
+
+        <div class="week-info">
+            <label for="week-of">ТИЖДЕНЬ:</label>
+            <input type="text" id="week-of" placeholder="Введіть дату тижня">
+
+            <label for="healthy-habit">КОРИСНА ЗВИЧКА:</label>
+            <input type="text" id="healthy-habit" placeholder="Введіть звичку">
+
+            <label for="rocked-it">ВДAЛОСЯ:
+                <input type="checkbox" id="rocked-it">
+            </label>
+
+            <label for="improvement">Є НАД ЧИМ ПРАЦЮВАТИ:
+                <input type="checkbox" id="improvement">
+            </label>
+
+        </div>
+
+        <div class="grid-container">
+            <div class="grid-item to-do">
+                <h2>ТОП-3 ЦІЛІ</h2>
+                <ul class="checklist">
+                    <li><label><input type="checkbox"><input type="text" placeholder="Ціль"></label></li>
+                    <li><label><input type="checkbox"><input type="text" placeholder="Ціль"></label></li>
+                    <li><label><input type="checkbox"><input type="text" placeholder="Ціль"></label></li>
+                </ul>
+
+                <h2>ВСЕ ІНШЕ</h2>
+                <ul class="checklist">
+                    <li><label><input type="checkbox"><input type="text" placeholder="Завдання"></label></li>
+                    <li><label><input type="checkbox"><input type="text" placeholder="Завдання"></label></li>
+                    <li><label><input type="checkbox"><input type="text" placeholder="Завдання"></label></li>
+                    <li><label><input type="checkbox"><input type="text" placeholder="Завдання"></label></li>
+                    <li><label><input type="checkbox"><input type="text" placeholder="Завдання"></label></li>
+                </ul>
+
+                <h2>НАСТУПНИЙ ТИЖДЕНЬ</h2>
+                <ul class="checklist">
+                    <li><label><input type="checkbox"><input type="text" placeholder="Завдання"></label></li>
+                    <li><label><input type="checkbox"><input type="text" placeholder="Завдання"></label></li>
+                    <li><label><input type="checkbox"><input type="text" placeholder="Завдання"></label></li>
+                    <li><label><input type="checkbox"><input type="text" placeholder="Завдання"></label></li>
+                </ul>
+            </div>
+
+            <div class="days-container">
+                <div class="grid-item day monday">
+                    <h2>ПОНЕДІЛОК <input type="checkbox"></h2>
+                    <textarea placeholder="Ваші нотатки..."></textarea>
+                </div>
+
+                <div class="grid-item day tuesday">
+                    <h2>ВІВТОРОК <input type="checkbox"></h2>
+                    <textarea placeholder="Ваші нотатки..."></textarea>
+                </div>
+
+                <div class="grid-item day wednesday">
+                    <h2>СЕРЕДА <input type="checkbox"></h2>
+                    <textarea placeholder="Ваші нотатки..."></textarea>
+                </div>
+
+                <div class="grid-item day thursday">
+                    <h2>ЧЕТВЕР <input type="checkbox"></h2>
+                    <textarea placeholder="Ваші нотатки..."></textarea>
+                </div>
+
+                <div class="grid-item day friday">
+                    <h2>П'ЯТНИЦЯ <input type="checkbox"></h2>
+                    <textarea placeholder="Ваші нотатки..."></textarea>
+                </div>
+
+                <div class="grid-item day saturday">
+                    <h2>СУБОТА <input type="checkbox"></h2>
+                    <textarea placeholder="Ваші нотатки..."></textarea>
+                </div>
+
+                <div class="grid-item day sunday">
+                    <h2>НЕДІЛЯ <input type="checkbox"></h2>
+                    <textarea placeholder="Ваші нотатки..."></textarea>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
